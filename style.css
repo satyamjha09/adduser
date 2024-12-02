@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 24px;
+}
+
+/* Style for the form container */
+#userForm {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.superField {
+    display: flex;
+    gap: 30px;
+}
+
+.Field {
+    display: flex;
+    flex-direction: column;
+    width: 531px;
+    height: 96px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    gap: 10px;
+}
+
+
+
+#userForm input{
+    background-color: transparent;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+
+
+#btn {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 10%;
+}
+
+#error {
+    color: red;
+}
+
+#AddedEmployees {
+    
+
+}
+
+.employeeAddorDelete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.delete {
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 12px;
+
+}
+
+.Employees {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 12px;
+    gap: 5px;
+    
+}
